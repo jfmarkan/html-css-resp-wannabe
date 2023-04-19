@@ -134,6 +134,10 @@ img {
 }
 
 @media screen and (max-width: 480px){
+    h2{
+        margin-bottom: 1rem;
+    }
+    
     .row{
         flex-direction: column;
     }
@@ -141,8 +145,17 @@ img {
     .lessons .col,
     .steps .col,
     .why-us .col{
-        width: 100%;
-        margin-bottom: 2rem;
+        margin: 2rem auto;
+        width: 95%;
     }
 
+    section.steps{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        padding: 4rem 0 0;
+        margin-bottom: 0;
+        background-color: #222222;
+    }
 }
