@@ -141,23 +141,32 @@ img {
     
     .container{
         max-width: 480px;
-        margin: 0 auto;
-        padding: 0;
+        margin: auto;
     }
 
     .row{
         flex-wrap: wrap;
+        gap: 2.5rem;
     }
     
     .lessons .card,
     .steps .card{
-        margin: 1.5rem auto 1.5rem;
+        width: 100%;
     }
 
     .lessons .col,
     .steps .col,
     .why-us .col{
         margin: auto;
+        padding: 1.5rem 0 0;
+    }
+
+    .lessons .col{
+        width: 95%;
+    }
+
+    .steps .col,
+    .why-us .col{
         width: 90%;
     }
 
@@ -166,12 +175,15 @@ img {
     }
 
     .why-us{
-        padding: 4rem 0 0;
-        margin-bottom: 0;
+        padding: 3rem 0;
+        margin-bottom: 0px;
         background-color: #222222;
     }
-}
 
+    .why-us .col-left{
+        padding: 1.5rem 0 .4rem;
+    }
+}
 
 /* BONUS */
 @media screen and (min-width: 768px) {
