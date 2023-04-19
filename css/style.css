@@ -146,7 +146,7 @@ img {
     }
 
     .row{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     
     .lessons .card,
@@ -169,5 +169,14 @@ img {
         padding: 4rem 0 0;
         margin-bottom: 0;
         background-color: #222222;
+    }
+}
+
+
+/* BONUS */
+@media screen and (min-width: 768px) {
+    .container{
+        width: 100%;
+        max-width: 1140px;
     }
 }
