@@ -165,9 +165,12 @@ img {
         width: 95%;
     }
 
-    .steps .col,
-    .why-us .col{
+    .steps .col{
         width: 90%;
+    }
+
+    .why-us .col{
+        width: 91%;
     }
 
     section.steps{
@@ -180,8 +183,9 @@ img {
         background-color: #222222;
     }
 
-    .why-us .col-left{
-        padding: 1.5rem 0 .4rem;
+    .why-us .col-right ul{
+        display: flex;
+        flex-direction: column;
     }
 }
 
