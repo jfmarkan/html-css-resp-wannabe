@@ -130,6 +130,7 @@ img {
 @media screen and (max-width: 768px){
     .container{
         width: 100%;
+        max-width: 768px;
     }
 }
 
@@ -138,15 +139,26 @@ img {
         margin-bottom: 1rem;
     }
     
+    .container{
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
     .row{
         flex-direction: column;
     }
     
+    .lessons .card,
+    .steps .card{
+        margin: 1.5rem auto 1.5rem;
+    }
+
     .lessons .col,
     .steps .col,
     .why-us .col{
-        margin: 2rem auto;
-        width: 95%;
+        margin: auto;
+        width: 90%;
     }
 
     section.steps{
